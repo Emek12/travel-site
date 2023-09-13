@@ -1,0 +1,51 @@
+@media (min-width: 250px) and (max-width: 600px) {
+  .threePage {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: coral;
+  }
+  .content img {
+    width: 100%;
+    height: 100%;
+  }
+  .textContent3 {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+  }
+  .content .button {
+    width: 100px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px 0 20px 0px;
+  }
+  .threePage .button2 {
+    width: 100px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

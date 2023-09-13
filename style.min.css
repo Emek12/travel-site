@@ -1,0 +1,1 @@
+@use "./firstPage.scss";@use "./secondPage.scss";@use "./threePage.scss";@use "./fourPage.scss";@use "./navbar";*{padding:0;margin:0;box-sizing:border-box}html{scroll-behavior:smooth}body{width:100%;height:100vh}

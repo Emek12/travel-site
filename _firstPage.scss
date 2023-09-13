@@ -1,0 +1,84 @@
+
+
+
+
+@media (min-width: 250px) and (max-width: 600px){
+    .firstPage{
+        width: 100%;
+        height: 100%;
+        background-image: url(/image/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        
+    }
+
+    .firstPage .textContent{
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+        background-color: rgba(31, 100, 100, 0.408);
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        backdrop-filter: blur(4px);
+    }
+
+    
+
+    .firstPage .textContent h1{
+        font-size: 2.5rem;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: rgb(80, 227, 227);
+    }
+
+    .firstPage .textContent p{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        color: rgb(121, 214, 214);
+        font-size: 1.5rem;
+    }
+
+    .firstPage img{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 50%;
+        bottom: 15%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
